@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calorie counter</title>
+        <link rel="stylesheet" href="css.css"> 
+    </head>
+    <body>
+        <h1>Calorie Counter</h1>
+        <div class="container">
+            <form id="calorie-container">
+                <label for="budgetCalories" >Budget</label> 
+                <input type="number" id="budgetCalories" min="0" placeholder="Daily Calorie Budget" required>
+                <div class="inside-cont">
+                <fieldset id="Breakfast">
+                    <legend>Breakfast</legend>
+                    <div id="input-container"></div>
+                </fieldset>
+
+                <fieldset id="Dinner">
+                    <legend>Dinner</legend>
+                    <div id="input-container"></div>
+                </fieldset>
+
+                <fieldset id="Lunch">
+                    <legend>Lunch</legend>
+                    <div id="input-container"></div>
+                </fieldset>
+
+                <fieldset id="Snacks">
+                    <legend>Snacks</legend>
+                    <div id="input-container"></div>
+                </fieldset>
+
+                 <fieldset id="Exercise">
+                    <legend>Exercise</legend>
+                    <div id="input-container"></div>
+                </fieldset>
+                </div>
+                <label for="entry-dropdown">Add food or exercise</label>
+                <select id="entry-dropdown">
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Exercise">Exercise</option>
+                </select>
+                <button type="button" id="add-entry-btn">Add Entry</button>
+            </form>
+            
+            <div class="calculate">
+                <button type="reset">Clear</button>
+                <button type="submit" id="sub">Calculate Remaining Calories</button>
+            </div>
+
+
+            <div id="output" class="output"></div>
+            
+
+
+        </div>
+        <script src="java.js">
+           
+        </script>
+    </body>
+  
+</html>
