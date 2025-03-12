@@ -16,26 +16,28 @@ body {
   color: var(--light-grey);
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.container{
+.container {
   width: 90%;
   max-width: 680px;
   /* background-color: red; */
 }
 
-#calorie-container{
-    margin:auto;
+#calorie-container {
+  margin: auto;
 }
 
-h1,.container{
-    margin: 20px auto;
+h1,
+.container {
+  margin: 20px auto;
 }
 
-label,legend{
-    font-weight: bold;
+label,
+legend {
+  font-weight: bold;
 }
 
 button,
@@ -45,11 +47,25 @@ select {
   color: var(--dark-blue);
 }
 
-fieldset,label,input,button{
-    margin-bottom: 10px;
+fieldset,
+label,
+input,
+button {
+  margin-bottom: 10px;
 }
 
-button{
-    background-color: var(--light-yellow);
+button {
+  background-color: var(--light-yellow);
 }
+
+.output {
+  border: 2px solid var(--light-grey);
+  padding: 10px;
+  text-align: center;
+}
+.hide{
+
+  display: none;
+}
+
 
