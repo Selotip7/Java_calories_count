@@ -22,13 +22,23 @@ h1 {
 
 .container {
   width: 90%;
-  max-width: 680px;
+  max-width: 660px;
   /* background-color: red; */
 }
 
 #calorie-container {
   margin: auto;
 }
+
+/* input atas*/
+#gender{
+  margin-bottom: 10px;
+}
+
+#age{
+  width: 85px;
+}
+
 
 h1,
 .container {
@@ -59,13 +69,12 @@ button {
 }
 
 .output {
-  border: 2px solid var(--light-grey);
-  padding: 10px;
+  border: 1px solid var(--light-grey);
+  
   text-align: center;
 }
 .hide{
 
   display: none;
 }
-
 
